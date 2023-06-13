@@ -3,6 +3,7 @@ import './App.css';
 import CricketComponent from './components/CricketComponent';
 import { useEffect, useState } from 'react';
 import Spinner from './components/Spinner';
+import Heading from './components/Heading';
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
 
   return (
     <div className="app">
-     
+      <Heading />
+
       {
         loading ? <Spinner /> : ''
       }
@@ -48,7 +50,7 @@ function App() {
 
       }
 
-      {/* <CricketComponent/> */}
+
 
 
     </div>

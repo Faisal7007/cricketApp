@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  text-align: center;
+  /* align-items: center; */
+  margin-bottom: 80px;
+}
+
+.nav {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
