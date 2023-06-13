@@ -2,7 +2,6 @@ import React from "react";
 import "./CricketComponent.css";
 
 function CricketComponent({ item }) {
-  console.log("Item is ", item);
 
   return (
   
@@ -16,8 +15,8 @@ function CricketComponent({ item }) {
           <h1>{item.name}</h1>
         </div>
         <div className="second_row">
-          <img src={item.teamInfo[0].img} alt="images" />
-          <img src={item.teamInfo[0].img} alt="" />
+          <img src={item.teamInfo[0].img} alt="images1" />
+          <img src={item.teamInfo[0].img} alt="images2" />
 
         </div>
 

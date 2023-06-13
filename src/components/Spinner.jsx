@@ -6,8 +6,6 @@ function Spinner() {
   return (
     <div className='main_div'>
         <img src={spinner} alt="Loading" height={'80'} />
-
-      
     </div>
   )
 }
