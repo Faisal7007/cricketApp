@@ -1,5 +1,6 @@
 import React from "react";
 import "./CricketComponent.css";
+import not_awailable from './images/not_awailabe.jpg'
 
 function CricketComponent({ item }) {
 
@@ -16,7 +17,7 @@ function CricketComponent({ item }) {
         </div>
         <div className="second_row">
           <img src={item.teamInfo[0].img} alt="images1" />
-          <img src={item.teamInfo[0].img} alt="images2" />
+          <img src={item?.teamInfo[1].img }  alt="images2" />
 
         </div>
 
