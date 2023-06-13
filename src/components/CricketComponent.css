@@ -1,0 +1,44 @@
+
+
+.main_div{
+    display: flex;
+    justify-content: center;
+     background-color: rgb(62, 62, 1); 
+    /* background-image: url('./images/bg2.jpg'); */
+   
+   
+}
+
+.child_div{
+    background-color: rgba(0, 0, 0,0.7);
+    color: rgb(22, 6, 6);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    transition: all 450ms;
+    font-size: 15px;
+    color: rgb(222, 156, 110);
+  
+    
+}
+
+.child_div:hover{
+    transform: scale(1.07);
+}
+
+.super_child{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+@media(max-width: 768px){
+    .child_div{
+    width: 80vw;
+    font-size: 10px;
+
+    }
+
+}
